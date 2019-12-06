@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/Users/javonesmith/Flatiron/trivia_night/app/style.css" />
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.craiom/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <script defer src="scorePage.js"></script>
+  <script defer src="index.js"></script>
+  <title>Trivial Night</title>  
+  
+  
+</head>
+<body>
+  <div id="main-menu">     
+    <form class="trivia-form" style="" id="trivia">
+        
+        <input type="text" name="name" value='' placeholder="Enter a Username" class="input-text">
+        <br>
+        <input type="submit" name="submit" value="Create Username" class="submit">
+        <!-- <input list="categories" name="category" placeholder="Select Category"> -->
+        
+        <label for="categories">Select Category:</label>
+        <select id="categories" name="category">
+            <option value= "1" >General Knowledge</option>
+             <option value= "2">Entertainment: Books</option>
+                <option value= "3">Entertainment: Film</option>
+                <option value= "4">Entertainment: Music</option>
+                <option value= "5">Entertainment: Musicals & Theatres</option>
+                <option value= "6">Enetertainment: Television</option>
+                <option value= "7">Entertainment: Video Games</option>
+                <option value= "8">Entertainment: Board Games</option>
+                <option value= "9">Science & Nature</option>
+                <option value= "10">Science: Computers</option>
+                <option value= "11">Science: Mathematics</option>
+                <option value= "12">Mythology</option>
+        </select>
+        <!-- <select id="categories">
+          <option value= "General Knowledge" >
+          <option value= "Entertainment: Books">
+          <option value= "Entertainment: Film">
+          <option value= "Entertainment: Music">
+          <option value= "Entertainment: Musicals & Theatres">
+          <option value= "Entertainment: Television">
+          <option value= "Entertainment: Video Games">
+          <option value= "Entertainment: Board Games">
+          <option value= "Science & Nature">
+          <option value= "Science: Computers">
+          <option value= "Science: Mathematics">
+          <option value= "Mythology">          
+          </select> -->
+      </form></div>
+        
+      
+      <div class="category-container">
+        <h3>Let's Play!</h3>
+        
+      </div>
+      <div class="user-container">
+        <h2>Here is your category and questions! </h2>
+        <h3>You have 10 lives.. For each wrong guess, you will lose 1 life!</h3>
+
+        <!-- <h1>id= 'points'> -->
+
+      </div>
+      
+</div>
+</body>
+</html>
